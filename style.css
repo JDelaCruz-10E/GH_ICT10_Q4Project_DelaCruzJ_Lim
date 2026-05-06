@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace
+}
+
+#pics {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(186, 230, 200)
+}
+
+#attendance {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(186, 230, 200);
+}
+
+#classmates {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(186, 230, 200)
+}
+
+label {
+    text-align: left;
+}
+
+#classmates2 {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: left;
+}
+
+#day {
+    width: 50%;
+}
+
+#absences {
+    width: 50%;
+}
+
+
+
+#navbar {
+    background-color: aliceblue;
+}
+
+#btn {
+    background-color: rgb(98, 187, 107);
+    color: #ffffff;
+    width: 25%;
+}
+
+#btn2 {
+    background-color: rgb(98, 187, 107);
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+}
+
+#classmate1 {
+    width: 50%;
+}
+
+#section {
+    width: 50%;
+}
+
+#subject {
+    width: 50%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 325px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}

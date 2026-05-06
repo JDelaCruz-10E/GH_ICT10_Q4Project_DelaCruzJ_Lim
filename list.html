@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <py-config>
+        packages = ['numpy', 'matplotlib']
+    </py-config>
+    <title>My Classmates</title>
+</head>
+<body>
+
+<div id="navbar">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"><b>10-EMERALD SY2526</b></a>
+                    <a class="nav-item nav-link" href="list.html">Classmates</a>
+                    <a class="nav-item nav-link" href="attendance.html">Attendance Checker</a>
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                </div>
+        </div>
+    </nav>
+</div>
+<br>
+    <h1>10E Classmate List</h1>
+    <div id="classmates" class="container mt-5">
+        <div>
+            <div>
+                <input type="text" id="classmate1" placeholder="Name">
+            </div>
+<br>
+            <div>
+                <input type="text" id="section" placeholder="Favorite subject">
+            </div>
+<br>
+            <div>
+                <input type="text" id="subject" placeholder="Favorite subject">
+            </div>
+<br>
+            <div>
+                <input id="btn" type="button" py-click="add" class="btn" value="Add Classmate">
+                <input id="btn" type="button" py-click="show" class="btn" value="Show List">
+            </div>
+        </div>
+    </div>
+
+        <div id="classmates2" class="container mt-5">
+            <h3>List of Classmates</h3>
+            <div id="output"></div>
+        </div>
+<br>
+    <p><b>© 10-Emerald | Jalena Dela Cruz, Angela Lim</b></p>
+    <py-script src="list.py"></py-script>
+</body>
+</html>
